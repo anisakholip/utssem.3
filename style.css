@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+  }
+  #header{
+    position: relative;
+    height:50px;
+    width: 100%;
+    background: white;
+  }
+  nav{ 
+      display: flex;
+      margin:auto;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%;
+      background-color: white;
+    }
+  #judul{
+  color:black;
+  font-size: 20px;
+  letter-spacing: 2px;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 10px 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color:black;
+  }
+#page1{
+    width: auto;
+    height: 50px;
+}
+.page1 img{
+    width: auto;
+    height: 50px;
+}
+img,p,h6,button{
+    position: absolute;
+}
+.text1{
+    bottom: 35px;
+    left: 15px;
+}
+.page1 h6{
+    bottom: 30px;
+    left: 15px;
+    color: white;
+}
+.text2{
+    bottom: 25px;
+    right: 15px;
+}
+.page1 button{
+    border: 2px; 
+    border-color: black;
+    color: white;
+}
+#about{
+    color:black;
+}
+.about{
+    color:grey;    
+}
